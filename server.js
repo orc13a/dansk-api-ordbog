@@ -10,4 +10,10 @@ server.use(bodyParser.json());
 
 server.use('/api', require('./routes/api'));
 
-server.listen(port);
+server.listen(port, (err) => {
+    if (err) {
+        throw err;
+    }
+
+    console.log(`\n> Server listning on: http://localhost:${port}\n`);
+});

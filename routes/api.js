@@ -15,8 +15,9 @@ api.get('/', (req, res) => {
     apiBaseUrl = `${httpType}${req.headers.host}${req.baseUrl}`;
 
     res.status(200).json({
-        "all_words": `${apiBaseUrl}/all`,
-        "word": `${apiBaseUrl}/word/{word}`
+        "words": `${apiBaseUrl}/words?q={query}{&per_page}`,
+        "word": `${apiBaseUrl}/word/{word}`,
+        "word_initial": `${apiBaseUrl}/initial/{initial}`
     });
 });
 
