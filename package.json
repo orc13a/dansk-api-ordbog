@@ -1,0 +1,20 @@
+{
+  "name": "dansk-api-ordbog",
+  "version": "0.0.1",
+  "description": "En RET API som indenholder danske ord og er dermed en ordbog i API form.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orc13a/dansk-api-ordbog.git"
+  },
+  "author": "Oliver Risager Christensen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/orc13a/dansk-api-ordbog/issues"
+  },
+  "homepage": "https://github.com/orc13a/dansk-api-ordbog#readme"
+}
