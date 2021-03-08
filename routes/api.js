@@ -3,7 +3,7 @@ const api = express.Router();
 const bodyParser = require('body-parser');
 
 let httpType;
-
+let apiBaseUrl;
 
 api.get('/', (req, res) => {
     if (req.secure != false) {
@@ -12,9 +12,11 @@ api.get('/', (req, res) => {
         httpType = "http://";
     }
 
+    apiBaseUrl = `${httpType}${req.headers.host}${req.baseUrl}`;
+
     res.status(200).json({
-        "all_words": `${httpType}${req.headers.host}${req.baseUrl}/all`,
-        "word": `${httpType}${req.headers.host}${req.baseUrl}/word/{word}`
+        "all_words": `${apiBaseUrl}/all`,
+        "word": `${apiBaseUrl}/word/{word}`
     });
 });
 
