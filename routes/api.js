@@ -1,6 +1,10 @@
 const express = require('express');
 const api = express.Router();
 const bodyParser = require('body-parser');
+const MongoClient = require('mongodb').MongoClient;
+
+const uri = process.env.MONGO_URI;
+const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 
 let httpType;
 let apiBaseUrl;
@@ -19,6 +23,20 @@ api.get('/', (req, res) => {
         "word": `${apiBaseUrl}/word/{word}`,
         "word_initial": `${apiBaseUrl}/initial/{initial}`
     });
+});
+
+api.get('/words', (req, res) => {
+    client.connect(err => {
+        console.log(client.db('dansk-API-ordbog').collection('words').findOne({}));
+
+        client.close();
+    });
+
+    res.end();
+});
+
+api.post('/add', (req, res) => {
+    
 });
 
 module.exports = api;
