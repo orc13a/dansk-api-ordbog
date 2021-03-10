@@ -2,7 +2,7 @@
 const express = require('express');
 const api = express.Router();
 const bodyParser = require('body-parser');
-const { word, Word } = require('../classes');
+const { Word } = require('../classes');
 
 let httpType;
 let apiBaseUrl;
@@ -21,6 +21,8 @@ api.get('/', (req, res) => {
         "word": `${apiBaseUrl}/word/{word}`,
         "word_initial": `${apiBaseUrl}/initial/{initial}`
     });
+
+    res.end();
 });
 
 api.get('/add', (req, res) => {
