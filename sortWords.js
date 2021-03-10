@@ -10,7 +10,7 @@ let ASCIIsheet;
 
 let insertingArray = [];
 
-let wordList1 = fs.readFileSync("./words-list-1.txt", "utf-8");
+let wordList1 = fs.readFileSync("./words/words-list-1.txt", "utf-8");
 let wordsFromFile = wordList1.split('\n');
 
 fs.readFile(allWordsPath, (err, data) => {
