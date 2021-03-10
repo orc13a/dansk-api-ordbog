@@ -3,8 +3,7 @@ const express = require('express');
 const server = express();
 const bodyParser = require('body-parser');
 const fs = require('fs');
-const MongoClient = require('mongodb').MongoClient;
-require('dotenv').config();
+
 
 // Server runtime port
 const port = 8080;
