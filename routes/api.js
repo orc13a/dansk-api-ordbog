@@ -26,7 +26,8 @@ api.get('/', (req, res) => {
 });
 
 api.get('/add', (req, res) => {
-    console.log(new Word('Kat'));
+    console.log(new Word('Kat', ['substantiv', 'fælleskøn'], ['-ten', '-te', '-tene']));
+    res.end();
 });
 
 module.exports = api;

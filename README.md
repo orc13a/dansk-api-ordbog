@@ -6,3 +6,7 @@
 ![Dansk Wiki](https://da.wikipedia.org/wiki/ASCII)
 
 ![English Wiki](https://en.wikipedia.org/wiki/ASCII)
+
+## Ord kommer fra (Kilder)
+
+![speling.org](https://da.speling.org/index.shtml)
