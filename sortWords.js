@@ -21,7 +21,7 @@ let start = true;
 let firstChar = '';
 let secondChar = '';
 
-function sort() {
+function sort(letter) {
     for (let w = 0; w < wordsFromFile.length; w++) {
         var rawWord = wordsFromFile[w];
         var word = '';
