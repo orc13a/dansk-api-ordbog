@@ -2,15 +2,22 @@ const fs = require("fs");
 const path = require('path');
 
 let rootPathForValues = path.join(__dirname);
-let ASCIIpathForValues = rootPathForValues + '/words/ASCII-sheet.json';
+// let ASCIIpathForGetValues = rootPathForValues + '/words/ASCII-chars.txt';
+let ASCIIpathForSetValues = rootPathForValues + '/words/ASCII-sheet.json';
 
-let ASCIIsheetForValues;
+let ASCIIsheetSetValues;
+let ASCIIsheetGetValues;
 let value = 32;
 
-fs.readFile(ASCIIpathForValues, (err, data) => {
+let finishedAsciiObj = {};
+
+let ASCIIpathForGetValues = fs.readFileSync("./words/ASCII-chars.txt", "utf-8");
+let ASCIIcharFile = ASCIIpathForGetValues.split('\n');
+
+fs.readFile(ASCIIpathForSetValues, (err, data) => {
     if (err) throw err;
 
-    ASCIIsheetForValues = JSON.parse(data);
+    ASCIIsheetSetValues = JSON.parse(data);
     
     addValues();
 });
@@ -18,23 +25,25 @@ fs.readFile(ASCIIpathForValues, (err, data) => {
 function addValues() {
     console.log(`==> Setting values`);
     
-    // for (const ascii in ASCIIsheetForValues) {
-    //     console.log(ascii);
-    //     // ASCIIsheetForValues[ascii] = value;
-    //     // value++;
-    // }
+    for (let c = 0; c < ASCIIcharFile.length; c++) {
+        var rawChar = ASCIIcharFile[c];
+        var char = '';
 
-    let keys = Object.keys(ASCIIsheetForValues);
-    for (let key of keys) {
-        let v = key;
-        console.log(v);
+        if (rawChar.includes('\r')) {
+            char = rawChar.split('\r')[0];
+        } else {
+            char = rawChar;
+        }
+
+        finishedAsciiObj[char] = value;
+        value++;
     }
 
-    // let rawData = JSON.stringify(ASCIIsheetForValues, null, 2);
+    let rawData = JSON.stringify(finishedAsciiObj, null, 2);
     
-    // fs.writeFile(ASCIIpathForValues, rawData, (err) => {
-    //     if(err) throw err;
-    // });
+    fs.writeFile(ASCIIpathForSetValues, rawData, (err) => {
+        if(err) throw err;
+    });
 
     console.log(`==> Finish setting ASCII values\n`);
 }

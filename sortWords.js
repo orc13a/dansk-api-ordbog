@@ -55,8 +55,7 @@ function sort(letter) {
 
         if (letter.toLowerCase() != 'å') {
             var calIndex = calASCII(word, insertingArr);
-            console.log(word);
-            console.log(calIndex);
+
             if (secondChar != 'a' || secondChar != 'A') {
                 if (letterArr[calIndex] === undefined) {
                     letterArr[calIndex] = [];
