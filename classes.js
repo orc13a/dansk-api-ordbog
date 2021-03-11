@@ -4,7 +4,7 @@ class Word {
         this.word_upperCase = word.toUpperCase();
         this.word_lowerCase = word.toLowerCase();
         this.word_classes = []; // ordet ordklasse
-        this.inflections = []; // inflection = bøjning
+        this.word_inflections = []; // inflection = bøjning
         this.word_meaning_url = `https://ordnet.dk/ddo/ordbog?query=${this.word_lowerCase}`;
 
         // Only push if paramater is given
@@ -20,9 +20,9 @@ class Word {
                     var wordS = inflection.split('');
                     wordS.unshift('-');
 
-                    this.inflections.push(wordS.join(''));
+                    this.word_inflections.push(wordS.join(''));
                 } else {
-                    this.inflections.push(inflection);
+                    this.word_inflections.push(inflection);
                 }
             });
         }
