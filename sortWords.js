@@ -32,44 +32,63 @@ let firstChar = '';
 let secondChar = '';
 
 function sort(letter) {
+    console.log(`==> Sorting for '${letter}' has started`);
     var letterArr = allWords[letter.toUpperCase()];
-    // var letterArrlen;
 
-    // if (letterArr.length == 0) {
-    //     letterArrlen = 1;
-    // } else {
-    //     letterArrlen = letterArr.length;
-    // }
-
+    console.log(`==> Please wait...\n`);
     for (let w = 0; w < wordsFromFile.length; w++) {
         var rawWord = wordsFromFile[w];
+        firstChar = rawWord.charAt(0);
+        secondChar = rawWord.charAt(1);
         var word = '';
 
-        if (rawWord.includes('\r')) {
-            word = rawWord.split('\r')[0];
-        } else {
-            word = rawWord;
-        }
+        if (letter.toLowerCase() != 'å') {
+            if (firstChar != secondChar) {
+                if (rawWord.includes('\r')) {
+                    word = rawWord.split('\r')[0];
+                } else {
+                    word = rawWord;
+                }
+                
+                var cal = calASCII(word, insertingArray);
         
-        var cal = calASCII(word, insertingArray.length);
+                if (letterArr[cal] == undefined) {
+                    letterArr[cal] = [];
+                    letterArr[cal].push(word);
+                } else {
+                    letterArr[cal].push(word);
+                }
+            } else {
+                if (firstChar != letter.toUpperCase() || firstChar != letter.toLowerCase()) {
+                    break;
+                }
+            }
+        } else {
 
-        if (insertingArray[cal] ) {
-            
         }
     }
     
-    // let rawData = JSON.stringify(allWords, null, 2);
+    let rawData = JSON.stringify(allWords, null, 2);
     
-    // fs.writeFile(allWordsPath, rawData, (err) => {
-    //     if(err) throw err;
-    // });
+    fs.writeFile(allWordsPath, rawData, (err) => {
+        if(err) throw err;
+    });
+
+    console.log(`==> Finish sorting for '${letter}'\n`);
 }
 
-function calASCII(word, arrLen) {
+function calASCII(word, array) {
     var wordSplitted = word.split('');
     var letterASCIIsum = 0;
     //var index = letterASCIIsum % arrLen;
+    var arrLen;
     
+    if (array.length > 0) {
+        arrLen = array.length;
+    } else {
+        arrLen = 1;
+    }
+
     wordSplitted.forEach(letter => {
         letterASCIIsum += ASCIIsheet[letter];
     });
