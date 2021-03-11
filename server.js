@@ -4,7 +4,6 @@ const server = express();
 const bodyParser = require('body-parser');
 const fs = require('fs');
 
-
 // Server runtime port
 const port = 8080;
 

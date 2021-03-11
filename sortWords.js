@@ -8,7 +8,7 @@ let ASCIIpath = rootPath + '/words/ASCII-sheet.json';
 let allWords;
 let ASCIIsheet;
 
-let insertingArray = [];
+let insertingArr = [];
 
 let wordList1 = fs.readFileSync("./words/words-list-1.txt", "utf-8");
 let wordsFromFile = wordList1.split('\n');
@@ -22,7 +22,7 @@ fs.readFile(allWordsPath, (err, data) => {
         if (err) throw err;
     
         ASCIIsheet = JSON.parse(data2);
-    
+        
         sort('a');
     });
 });
@@ -34,6 +34,7 @@ let secondChar = '';
 function sort(letter) {
     console.log(`==> Sorting for '${letter}' has started`);
     var letterArr = allWords[letter.toUpperCase()];
+    insertingArr = [];
 
     console.log(`==> Please wait...\n`);
     for (let w = 0; w < wordsFromFile.length; w++) {
@@ -42,25 +43,30 @@ function sort(letter) {
         secondChar = rawWord.charAt(1);
         var word = '';
 
+        if (firstChar != letter.toUpperCase()) {
+            break;
+        }
+
+        if (rawWord.includes('\r')) {
+            word = rawWord.split('\r')[0];
+        } else {
+            word = rawWord;
+        }
+
         if (letter.toLowerCase() != 'å') {
-            if (firstChar != secondChar) {
-                if (rawWord.includes('\r')) {
-                    word = rawWord.split('\r')[0];
+            var calIndex = calASCII(word, insertingArr);
+            console.log(word);
+            console.log(calIndex);
+            if (secondChar != 'a' || secondChar != 'A') {
+                if (letterArr[calIndex] === undefined) {
+                    letterArr[calIndex] = [];
+                    insertingArr[calIndex] = [];
+
+                    // letterArr[calIndex].push(word);
+                    // insertingArr[calIndex].push(word);
                 } else {
-                    word = rawWord;
-                }
-                
-                var cal = calASCII(word, insertingArray);
-        
-                if (letterArr[cal] == undefined) {
-                    letterArr[cal] = [];
-                    letterArr[cal].push(word);
-                } else {
-                    letterArr[cal].push(word);
-                }
-            } else {
-                if (firstChar != letter.toUpperCase() || firstChar != letter.toLowerCase()) {
-                    break;
+                    // letterArr[calIndex].push(word);
+                    // insertingArr[calIndex].push(word);
                 }
             }
         } else {
@@ -80,10 +86,9 @@ function sort(letter) {
 function calASCII(word, array) {
     var wordSplitted = word.split('');
     var letterASCIIsum = 0;
-    //var index = letterASCIIsum % arrLen;
     var arrLen;
     
-    if (array.length > 0) {
+    if (array.length != 0) {
         arrLen = array.length;
     } else {
         arrLen = 1;
@@ -92,6 +97,6 @@ function calASCII(word, array) {
     wordSplitted.forEach(letter => {
         letterASCIIsum += ASCIIsheet[letter];
     });
-
+    
     return letterASCIIsum % arrLen;
 }

@@ -5,6 +5,8 @@ Jeg ville gerne prøve at lave denne API uden at bruge en database, men det var 
 
 ## ASCII
 
+[ASCII-table](https://www.ascii-code.com/)
+
 [Dansk Wiki](https://da.wikipedia.org/wiki/ASCII)
 
 [English Wiki](https://en.wikipedia.org/wiki/ASCII)
