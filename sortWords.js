@@ -125,14 +125,14 @@ function sortNoAlfa(wordsFromFile) {
         } else {
             word = rawWord;
         }
-        console.log(word);
+        
         theWords.push(word);
     }
-
+    
     for (let i = 0; i < theWords.length; i++) {
         var wordFirstChar = theWords[i].charAt(0).toUpperCase();
-        var letterArr = allWords[wordFirstChar];
-        
+        var letterArr2 = allWords[wordFirstChar];
+        console.log(allWords['A']);
         // calIndex = calASCII(theWords[i], letterArr);
 
         // letterArr[calIndex].push(new Word(theWords[i]));
