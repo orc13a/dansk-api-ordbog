@@ -31,11 +31,16 @@ api.get('/', (req, res) => {
 
 api.get('/word/:seachedWord', (req, res) => {
     var searchedWord = req.params.seachedWord;    
-
+    
     if (searchedWord === '{word}') {
         res.json("no");
     } else {
-        res.json(getWord(searchedWord));
+        var searchedWordArr = searchedWord.split('');
+        var changedChar = searchedWordArr[0].toUpperCase();
+        searchedWordArr[0] = changedChar;
+
+        var newSearchedWord = searchedWordArr.join('');
+        res.json(getWord(newSearchedWord));
     }
 
     res.end();

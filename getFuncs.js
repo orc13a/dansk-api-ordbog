@@ -47,12 +47,13 @@ const getWord = (wantedWord) => {
 
     wordSection = allWords[wantedWord.charAt(0).toUpperCase()];
 
-    seachedAsciiIndex = calASCII(wantedWord.toLowerCase(), wordSection);
+    seachedAsciiIndex = calASCII(wantedWord, wordSection);
+
     wantedWordArr = wordSection[seachedAsciiIndex];
 
     for (let i = 0; i < wantedWordArr.length; i++) {
         var arrWord = wantedWordArr[i];
-        
+
         if (arrWord.word === wantedWord) {
             gottenWordObj = arrWord;
         } 

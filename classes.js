@@ -5,7 +5,7 @@ class Word {
         this.word_lowerCase = word.toLowerCase();
         this.word_classes = []; // ordet ordklasse
         this.word_inflections = []; // inflection = bøjning
-        this.word_meaning_url = `https://ordnet.dk/ddo/ordbog?query=${this.word_lowerCase}`;
+        this.word_meaning_url = `https://ordnet.dk/ddo/ordbog?query=${this.word}`;
 
         // Only push if paramater is given
         if (wordClass != undefined && wordClass.length > 0) {
