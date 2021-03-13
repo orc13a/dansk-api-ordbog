@@ -116,26 +116,12 @@ function sort(letter, wordsFromFile) {
 
 function sortNoAlfa(wordsFromFile) {
     console.log(`==> Please wait...\n`);
-
+    console.log(wordsFromFile);
     for (let w = startIndex; w < wordsFromFile.length; w++) {
         rawWord = wordsFromFile[w];
         
-        if (rawWord.includes('\r')) {
-            word = rawWord.split('\r')[0];
-        } else {
-            word = rawWord;
-        }
-        
-        theWords.push(word);
-    }
-    
-    for (let i = 0; i < theWords.length; i++) {
-        var wordFirstChar = theWords[i].charAt(0).toUpperCase();
-        var letterArr2 = allWords[wordFirstChar];
+        var wordFirstChar = rawWord.charAt(0);
         console.log(allWords['A']);
-        // calIndex = calASCII(theWords[i], letterArr);
-
-        // letterArr[calIndex].push(new Word(theWords[i]));
     }
     
     // let rawData = JSON.stringify(allWords, null, 2);
