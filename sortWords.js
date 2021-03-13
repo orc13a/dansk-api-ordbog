@@ -116,12 +116,12 @@ function sort(letter, wordsFromFile) {
 
 function sortNoAlfa(wordsFromFile) {
     console.log(`==> Please wait...\n`);
-    console.log(wordsFromFile);
+
     for (let w = startIndex; w < wordsFromFile.length; w++) {
         rawWord = wordsFromFile[w];
         
-        var wordFirstChar = rawWord.charAt(0);
-        console.log(allWords['A']);
+        var wordFirstChar = rawWord.split('')[0];
+        console.log(allWords[wordFirstChar]);
     }
     
     // let rawData = JSON.stringify(allWords, null, 2);
