@@ -29,11 +29,14 @@ api.get('/', (req, res) => {
     res.end();
 });
 
-api.get('/word/:seachedWord', async (req, res) => {
+api.get('/word/:seachedWord', (req, res) => {
     var searchedWord = req.params.seachedWord;    
-    const gottenWord = await getWord(searchedWord);
 
-    console.log(gottenWord);
+    if (searchedWord === '{word}') {
+        res.json("no");
+    } else {
+        res.json(getWord(searchedWord));
+    }
 
     res.end();
 });

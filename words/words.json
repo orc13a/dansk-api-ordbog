@@ -5,6 +5,65 @@
     [],
     [],
     [],
+    [
+      {
+        "word": "Aswan-dæmningen",
+        "word_upperCase": "ASWAN-DÆMNINGEN",
+        "word_lowerCase": "aswan-dæmningen",
+        "word_classes": [],
+        "word_inflections": [],
+        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=aswan-dæmningen"
+      }
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      {
+        "word": "A-landsholdstrup",
+        "word_upperCase": "A-LANDSHOLDSTRUP",
+        "word_lowerCase": "a-landsholdstrup",
+        "word_classes": [],
+        "word_inflections": [],
+        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=a-landsholdstrup"
+      }
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      {
+        "word": "Ada-programmørs",
+        "word_upperCase": "ADA-PROGRAMMØRS",
+        "word_lowerCase": "ada-programmørs",
+        "word_classes": [],
+        "word_inflections": [],
+        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=ada-programmørs"
+      }
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
     [],
     [],
     [],
@@ -198,16 +257,7 @@
     [],
     [],
     [],
-    [
-      {
-        "word": "AF",
-        "word_upperCase": "AF",
-        "word_lowerCase": "af",
-        "word_classes": [],
-        "word_inflections": [],
-        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=af"
-      }
-    ],
+    [],
     [],
     [],
     [],
@@ -223,16 +273,7 @@
       }
     ],
     [],
-    [
-      {
-        "word": "AM",
-        "word_upperCase": "AM",
-        "word_lowerCase": "am",
-        "word_classes": [],
-        "word_inflections": [],
-        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=am"
-      }
-    ],
+    [],
     [],
     [],
     [],
@@ -266,7 +307,16 @@
     [],
     [],
     [],
-    [],
+    [
+      {
+        "word": "AF",
+        "word_upperCase": "AF",
+        "word_lowerCase": "af",
+        "word_classes": [],
+        "word_inflections": [],
+        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=af"
+      }
+    ],
     [],
     [],
     [],
@@ -282,7 +332,16 @@
         "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=al"
       }
     ],
-    [],
+    [
+      {
+        "word": "AM",
+        "word_upperCase": "AM",
+        "word_lowerCase": "am",
+        "word_classes": [],
+        "word_inflections": [],
+        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=am"
+      }
+    ],
     [],
     [],
     [],
@@ -306,52 +365,6 @@
     [],
     [],
     [],
-    [
-      {
-        "word": "AGF-fodboldspillere",
-        "word_upperCase": "AGF-FODBOLDSPILLERE",
-        "word_lowerCase": "agf-fodboldspillere",
-        "word_classes": [],
-        "word_inflections": [],
-        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=agf-fodboldspillere"
-      }
-    ],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [
-      {
-        "word": "A/S",
-        "word_upperCase": "A/S",
-        "word_lowerCase": "a/s",
-        "word_classes": [],
-        "word_inflections": [],
-        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=a/s"
-      }
-    ],
-    [],
-    [
-      {
-        "word": "ABB",
-        "word_upperCase": "ABB",
-        "word_lowerCase": "abb",
-        "word_classes": [],
-        "word_inflections": [],
-        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=abb"
-      }
-    ],
-    [
-      {
-        "word": "ABC",
-        "word_upperCase": "ABC",
-        "word_lowerCase": "abc",
-        "word_classes": [],
-        "word_inflections": [],
-        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=abc"
-      }
-    ],
     [],
     [],
     [],
@@ -359,29 +372,21 @@
     [],
     [],
     [],
-    [
-      {
-        "word": "AGF",
-        "word_upperCase": "AGF",
-        "word_lowerCase": "agf",
-        "word_classes": [],
-        "word_inflections": [],
-        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=agf"
-      }
-    ],
     [],
     [],
     [],
-    [
-      {
-        "word": "ANC",
-        "word_upperCase": "ANC",
-        "word_lowerCase": "anc",
-        "word_classes": [],
-        "word_inflections": [],
-        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=anc"
-      }
-    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
     [],
     [
       {
@@ -394,44 +399,9 @@
       }
     ],
     [],
-    [
-      {
-        "word": "ABS",
-        "word_upperCase": "ABS",
-        "word_lowerCase": "abs",
-        "word_classes": [],
-        "word_inflections": [],
-        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=abs"
-      },
-      {
-        "word": "AOF",
-        "word_upperCase": "AOF",
-        "word_lowerCase": "aof",
-        "word_classes": [],
-        "word_inflections": [],
-        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=aof"
-      }
-    ],
-    [
-      {
-        "word": "AAU",
-        "word_upperCase": "AAU",
-        "word_lowerCase": "aau",
-        "word_classes": [],
-        "word_inflections": [],
-        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=aau"
-      }
-    ],
-    [
-      {
-        "word": "ATC",
-        "word_upperCase": "ATC",
-        "word_lowerCase": "atc",
-        "word_classes": [],
-        "word_inflections": [],
-        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=atc"
-      }
-    ],
+    [],
+    [],
+    [],
     [],
     [],
     [
@@ -450,28 +420,19 @@
     [],
     [],
     [],
+    [],
     [
       {
-        "word": "AIX",
-        "word_upperCase": "AIX",
-        "word_lowerCase": "aix",
+        "word": "A/S",
+        "word_upperCase": "A/S",
+        "word_lowerCase": "a/s",
         "word_classes": [],
         "word_inflections": [],
-        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=aix"
+        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=a/s"
       }
     ],
     [],
     [],
-    [
-      {
-        "word": "ATP",
-        "word_upperCase": "ATP",
-        "word_lowerCase": "atp",
-        "word_classes": [],
-        "word_inflections": [],
-        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=atp"
-      }
-    ],
     [],
     [],
     [],
@@ -504,7 +465,16 @@
     [],
     [],
     [],
-    [],
+    [
+      {
+        "word": "AGF-fodboldspillere",
+        "word_upperCase": "AGF-FODBOLDSPILLERE",
+        "word_lowerCase": "agf-fodboldspillere",
+        "word_classes": [],
+        "word_inflections": [],
+        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=agf-fodboldspillere"
+      }
+    ],
     [],
     [],
     [],
@@ -528,25 +498,26 @@
         "word_classes": [],
         "word_inflections": [],
         "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=adriaterhavskysten"
-      },
-      {
-        "word": "ApS",
-        "word_upperCase": "APS",
-        "word_lowerCase": "aps",
-        "word_classes": [],
-        "word_inflections": [],
-        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=aps"
       }
     ],
-    [],
     [
       {
-        "word": "ABBA",
-        "word_upperCase": "ABBA",
-        "word_lowerCase": "abba",
+        "word": "ABB",
+        "word_upperCase": "ABB",
+        "word_lowerCase": "abb",
         "word_classes": [],
         "word_inflections": [],
-        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=abba"
+        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=abb"
+      }
+    ],
+    [
+      {
+        "word": "ABC",
+        "word_upperCase": "ABC",
+        "word_lowerCase": "abc",
+        "word_classes": [],
+        "word_inflections": [],
+        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=abc"
       },
       {
         "word": "Ada",
@@ -584,6 +555,14 @@
     [],
     [
       {
+        "word": "AGF",
+        "word_upperCase": "AGF",
+        "word_lowerCase": "agf",
+        "word_classes": [],
+        "word_inflections": [],
+        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=agf"
+      },
+      {
         "word": "Adi",
         "word_upperCase": "ADI",
         "word_lowerCase": "adi",
@@ -604,7 +583,16 @@
       }
     ],
     [],
-    [],
+    [
+      {
+        "word": "ANC",
+        "word_upperCase": "ANC",
+        "word_lowerCase": "anc",
+        "word_classes": [],
+        "word_inflections": [],
+        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=anc"
+      }
+    ],
     [
       {
         "word": "Alf",
@@ -653,6 +641,22 @@
     ],
     [
       {
+        "word": "ABS",
+        "word_upperCase": "ABS",
+        "word_lowerCase": "abs",
+        "word_classes": [],
+        "word_inflections": [],
+        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=abs"
+      },
+      {
+        "word": "AOF",
+        "word_upperCase": "AOF",
+        "word_lowerCase": "aof",
+        "word_classes": [],
+        "word_inflections": [],
+        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=aof"
+      },
+      {
         "word": "Ali",
         "word_upperCase": "ALI",
         "word_lowerCase": "ali",
@@ -663,6 +667,14 @@
     ],
     [
       {
+        "word": "AAU",
+        "word_upperCase": "AAU",
+        "word_lowerCase": "aau",
+        "word_classes": [],
+        "word_inflections": [],
+        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=aau"
+      },
+      {
         "word": "Ard",
         "word_upperCase": "ARD",
         "word_lowerCase": "ard",
@@ -672,6 +684,14 @@
       }
     ],
     [
+      {
+        "word": "ATC",
+        "word_upperCase": "ATC",
+        "word_lowerCase": "atc",
+        "word_classes": [],
+        "word_inflections": [],
+        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=atc"
+      },
       {
         "word": "Ani",
         "word_upperCase": "ANI",
@@ -747,14 +767,6 @@
     ],
     [
       {
-        "word": "AB's",
-        "word_upperCase": "AB'S",
-        "word_lowerCase": "ab's",
-        "word_classes": [],
-        "word_inflections": [],
-        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=ab's"
-      },
-      {
         "word": "Ais",
         "word_upperCase": "AIS",
         "word_lowerCase": "ais",
@@ -819,22 +831,6 @@
     ],
     [
       {
-        "word": "AF's",
-        "word_upperCase": "AF'S",
-        "word_lowerCase": "af's",
-        "word_classes": [],
-        "word_inflections": [],
-        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=af's"
-      },
-      {
-        "word": "AIDS",
-        "word_upperCase": "AIDS",
-        "word_lowerCase": "aids",
-        "word_classes": [],
-        "word_inflections": [],
-        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=aids"
-      },
-      {
         "word": "Arn",
         "word_upperCase": "ARN",
         "word_lowerCase": "arn",
@@ -844,6 +840,14 @@
       }
     ],
     [
+      {
+        "word": "AIX",
+        "word_upperCase": "AIX",
+        "word_lowerCase": "aix",
+        "word_classes": [],
+        "word_inflections": [],
+        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=aix"
+      },
       {
         "word": "Ans",
         "word_upperCase": "ANS",
@@ -856,6 +860,14 @@
     [],
     [
       {
+        "word": "ApS",
+        "word_upperCase": "APS",
+        "word_lowerCase": "aps",
+        "word_classes": [],
+        "word_inflections": [],
+        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=aps"
+      },
+      {
         "word": "Asp",
         "word_upperCase": "ASP",
         "word_lowerCase": "asp",
@@ -864,7 +876,16 @@
         "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=asp"
       }
     ],
-    [],
+    [
+      {
+        "word": "ATP",
+        "word_upperCase": "ATP",
+        "word_lowerCase": "atp",
+        "word_classes": [],
+        "word_inflections": [],
+        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=atp"
+      }
+    ],
     [
       {
         "word": "Afghanistan-komité",
@@ -949,11 +970,29 @@
     [],
     [],
     [],
+    [
+      {
+        "word": "AB's",
+        "word_upperCase": "AB'S",
+        "word_lowerCase": "ab's",
+        "word_classes": [],
+        "word_inflections": [],
+        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=ab's"
+      }
+    ],
     [],
     [],
     [],
-    [],
-    [],
+    [
+      {
+        "word": "AF's",
+        "word_upperCase": "AF'S",
+        "word_lowerCase": "af's",
+        "word_classes": [],
+        "word_inflections": [],
+        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=af's"
+      }
+    ],
     [],
     [],
     [
@@ -1029,22 +1068,21 @@
     [],
     [],
     [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
     [
       {
-        "word": "ABC's",
-        "word_upperCase": "ABC'S",
-        "word_lowerCase": "abc's",
+        "word": "ABBA",
+        "word_upperCase": "ABBA",
+        "word_lowerCase": "abba",
         "word_classes": [],
         "word_inflections": [],
-        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=abc's"
-      }
-    ],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [
+        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=abba"
+      },
       {
         "word": "Abba",
         "word_upperCase": "ABBA",
@@ -1056,16 +1094,7 @@
     ],
     [],
     [],
-    [
-      {
-        "word": "ASCII",
-        "word_upperCase": "ASCII",
-        "word_lowerCase": "ascii",
-        "word_classes": [],
-        "word_inflections": [],
-        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=ascii"
-      }
-    ],
+    [],
     [
       {
         "word": "Adda",
@@ -1495,6 +1524,14 @@
       }
     ],
     [
+      {
+        "word": "AIDS",
+        "word_upperCase": "AIDS",
+        "word_lowerCase": "aids",
+        "word_classes": [],
+        "word_inflections": [],
+        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=aids"
+      },
       {
         "word": "Adis",
         "word_upperCase": "ADIS",
@@ -2193,7 +2230,16 @@
       }
     ],
     [],
-    [],
+    [
+      {
+        "word": "ABC's",
+        "word_upperCase": "ABC'S",
+        "word_lowerCase": "abc's",
+        "word_classes": [],
+        "word_inflections": [],
+        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=abc's"
+      }
+    ],
     [],
     [],
     [],
@@ -2314,29 +2360,11 @@
       }
     ],
     [],
-    [
-      {
-        "word": "ABC'en",
-        "word_upperCase": "ABC'EN",
-        "word_lowerCase": "abc'en",
-        "word_classes": [],
-        "word_inflections": [],
-        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=abc'en"
-      }
-    ],
     [],
     [],
     [],
-    [
-      {
-        "word": "ABC'er",
-        "word_upperCase": "ABC'ER",
-        "word_lowerCase": "abc'er",
-        "word_classes": [],
-        "word_inflections": [],
-        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=abc'er"
-      }
-    ],
+    [],
+    [],
     [],
     [],
     [],
@@ -2594,14 +2622,6 @@
         "word_classes": [],
         "word_inflections": [],
         "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=amand"
-      },
-      {
-        "word": "Amnesty International",
-        "word_upperCase": "AMNESTY INTERNATIONAL",
-        "word_lowerCase": "amnesty international",
-        "word_classes": [],
-        "word_inflections": [],
-        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=amnesty international"
       }
     ],
     [
@@ -2883,6 +2903,14 @@
       }
     ],
     [
+      {
+        "word": "ASCII",
+        "word_upperCase": "ASCII",
+        "word_lowerCase": "ascii",
+        "word_classes": [],
+        "word_inflections": [],
+        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=ascii"
+      },
       {
         "word": "Aasas",
         "word_upperCase": "AASAS",
@@ -4050,6 +4078,14 @@
     ],
     [
       {
+        "word": "ABC'en",
+        "word_upperCase": "ABC'EN",
+        "word_lowerCase": "abc'en",
+        "word_classes": [],
+        "word_inflections": [],
+        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=abc'en"
+      },
+      {
         "word": "Algys",
         "word_upperCase": "ALGYS",
         "word_lowerCase": "algys",
@@ -4067,6 +4103,14 @@
       }
     ],
     [
+      {
+        "word": "Amnesty International",
+        "word_upperCase": "AMNESTY INTERNATIONAL",
+        "word_lowerCase": "amnesty international",
+        "word_classes": [],
+        "word_inflections": [],
+        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=amnesty international"
+      },
       {
         "word": "Attes",
         "word_upperCase": "ATTES",
@@ -4137,6 +4181,14 @@
       }
     ],
     [
+      {
+        "word": "ABC'er",
+        "word_upperCase": "ABC'ER",
+        "word_lowerCase": "abc'er",
+        "word_classes": [],
+        "word_inflections": [],
+        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=abc'er"
+      },
       {
         "word": "Askov",
         "word_upperCase": "ASKOV",
@@ -4445,16 +4497,7 @@
       }
     ],
     [],
-    [
-      {
-        "word": "ABC'ens",
-        "word_upperCase": "ABC'ENS",
-        "word_lowerCase": "abc'ens",
-        "word_classes": [],
-        "word_inflections": [],
-        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=abc'ens"
-      }
-    ],
+    [],
     [
       {
         "word": "Arbejdsskadestyrelsen",
@@ -4467,16 +4510,7 @@
     ],
     [],
     [],
-    [
-      {
-        "word": "ABC'ers",
-        "word_upperCase": "ABC'ERS",
-        "word_lowerCase": "abc'ers",
-        "word_classes": [],
-        "word_inflections": [],
-        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=abc'ers"
-      }
-    ],
+    [],
     [],
     [],
     [],
@@ -6850,6 +6884,14 @@
     [],
     [
       {
+        "word": "ABC'ens",
+        "word_upperCase": "ABC'ENS",
+        "word_lowerCase": "abc'ens",
+        "word_classes": [],
+        "word_inflections": [],
+        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=abc'ens"
+      },
+      {
         "word": "Antons",
         "word_upperCase": "ANTONS",
         "word_lowerCase": "antons",
@@ -6880,6 +6922,14 @@
       }
     ],
     [
+      {
+        "word": "ABC'ers",
+        "word_upperCase": "ABC'ERS",
+        "word_lowerCase": "abc'ers",
+        "word_classes": [],
+        "word_inflections": [],
+        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=abc'ers"
+      },
       {
         "word": "Agerø",
         "word_upperCase": "AGERØ",
@@ -7146,16 +7196,7 @@
     ],
     [],
     [],
-    [
-      {
-        "word": "ABC'erne",
-        "word_upperCase": "ABC'ERNE",
-        "word_lowerCase": "abc'erne",
-        "word_classes": [],
-        "word_inflections": [],
-        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=abc'erne"
-      }
-    ],
+    [],
     [
       {
         "word": "Agnès'",
@@ -7275,16 +7316,7 @@
         "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=adelina"
       }
     ],
-    [
-      {
-        "word": "AGF-sejr",
-        "word_upperCase": "AGF-SEJR",
-        "word_lowerCase": "agf-sejr",
-        "word_classes": [],
-        "word_inflections": [],
-        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=agf-sejr"
-      }
-    ],
+    [],
     [
       {
         "word": "Abeline",
@@ -9085,14 +9117,6 @@
         "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=alwines"
       },
       {
-        "word": "Ann-Mari",
-        "word_upperCase": "ANN-MARI",
-        "word_lowerCase": "ann-mari",
-        "word_classes": [],
-        "word_inflections": [],
-        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=ann-mari"
-      },
-      {
         "word": "Anselms",
         "word_upperCase": "ANSELMS",
         "word_lowerCase": "anselms",
@@ -9212,6 +9236,14 @@
       }
     ],
     [
+      {
+        "word": "ABC'erne",
+        "word_upperCase": "ABC'ERNE",
+        "word_lowerCase": "abc'erne",
+        "word_classes": [],
+        "word_inflections": [],
+        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=abc'erne"
+      },
       {
         "word": "Aimèes",
         "word_upperCase": "AIMÈES",
@@ -9656,6 +9688,14 @@
         "word_classes": [],
         "word_inflections": [],
         "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=a-regler"
+      },
+      {
+        "word": "AGF-sejr",
+        "word_upperCase": "AGF-SEJR",
+        "word_lowerCase": "agf-sejr",
+        "word_classes": [],
+        "word_inflections": [],
+        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=agf-sejr"
       }
     ],
     [
@@ -9696,6 +9736,14 @@
         "word_classes": [],
         "word_inflections": [],
         "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=andras's"
+      },
+      {
+        "word": "Ann-Mari",
+        "word_upperCase": "ANN-MARI",
+        "word_lowerCase": "ann-mari",
+        "word_classes": [],
+        "word_inflections": [],
+        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=ann-mari"
       }
     ],
     [],
@@ -9816,16 +9864,7 @@
         "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=adelaide"
       }
     ],
-    [
-      {
-        "word": "ABC'ernes",
-        "word_upperCase": "ABC'ERNES",
-        "word_lowerCase": "abc'ernes",
-        "word_classes": [],
-        "word_inflections": [],
-        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=abc'ernes"
-      }
-    ],
+    [],
     [
       {
         "word": "Aabenraa",
@@ -10172,14 +10211,6 @@
       }
     ],
     [
-      {
-        "word": "AM-bidrag",
-        "word_upperCase": "AM-BIDRAG",
-        "word_lowerCase": "am-bidrag",
-        "word_classes": [],
-        "word_inflections": [],
-        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=am-bidrag"
-      },
       {
         "word": "Akelejes",
         "word_upperCase": "AKELEJES",
@@ -11061,14 +11092,6 @@
         "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=albertos"
       },
       {
-        "word": "Anne-Lise",
-        "word_upperCase": "ANNE-LISE",
-        "word_lowerCase": "anne-lise",
-        "word_classes": [],
-        "word_inflections": [],
-        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=anne-lise"
-      },
-      {
         "word": "Antonine",
         "word_upperCase": "ANTONINE",
         "word_lowerCase": "antonine",
@@ -11269,6 +11292,14 @@
     ],
     [
       {
+        "word": "AM-bidrag",
+        "word_upperCase": "AM-BIDRAG",
+        "word_lowerCase": "am-bidrag",
+        "word_classes": [],
+        "word_inflections": [],
+        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=am-bidrag"
+      },
+      {
         "word": "Amélies",
         "word_upperCase": "AMÉLIES",
         "word_lowerCase": "amélies",
@@ -11357,6 +11388,14 @@
     [],
     [],
     [
+      {
+        "word": "ABC'ernes",
+        "word_upperCase": "ABC'ERNES",
+        "word_lowerCase": "abc'ernes",
+        "word_classes": [],
+        "word_inflections": [],
+        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=abc'ernes"
+      },
       {
         "word": "Askepots",
         "word_upperCase": "ASKEPOTS",
@@ -11605,6 +11644,14 @@
         "word_classes": [],
         "word_inflections": [],
         "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=andrias's"
+      },
+      {
+        "word": "Anne-Lise",
+        "word_upperCase": "ANNE-LISE",
+        "word_lowerCase": "anne-lise",
+        "word_classes": [],
+        "word_inflections": [],
+        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=anne-lise"
       }
     ],
     [
@@ -11814,14 +11861,6 @@
     ],
     [
       {
-        "word": "ATP-bidrag",
-        "word_upperCase": "ATP-BIDRAG",
-        "word_lowerCase": "atp-bidrag",
-        "word_classes": [],
-        "word_inflections": [],
-        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=atp-bidrag"
-      },
-      {
         "word": "Andrés's",
         "word_upperCase": "ANDRÉS'S",
         "word_lowerCase": "andrés's",
@@ -11878,16 +11917,7 @@
         "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=aloysius'"
       }
     ],
-    [
-      {
-        "word": "ABS-bremse",
-        "word_upperCase": "ABS-BREMSE",
-        "word_lowerCase": "abs-bremse",
-        "word_classes": [],
-        "word_inflections": [],
-        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=abs-bremse"
-      }
-    ],
+    [],
     [
       {
         "word": "Annabelle",
@@ -12098,14 +12128,6 @@
         "word_classes": [],
         "word_inflections": [],
         "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=amagerbro"
-      },
-      {
-        "word": "Anders And",
-        "word_upperCase": "ANDERS AND",
-        "word_lowerCase": "anders and",
-        "word_classes": [],
-        "word_inflections": [],
-        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=anders and"
       },
       {
         "word": "Annabells",
@@ -12502,14 +12524,6 @@
         "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=annamette"
       },
       {
-        "word": "Anne-Marie",
-        "word_upperCase": "ANNE-MARIE",
-        "word_lowerCase": "anne-marie",
-        "word_classes": [],
-        "word_inflections": [],
-        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=anne-marie"
-      },
-      {
         "word": "Annelines",
         "word_upperCase": "ANNELINES",
         "word_lowerCase": "annelines",
@@ -12716,14 +12730,6 @@
     ],
     [
       {
-        "word": "Anne-Karin",
-        "word_upperCase": "ANNE-KARIN",
-        "word_lowerCase": "anne-karin",
-        "word_classes": [],
-        "word_inflections": [],
-        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=anne-karin"
-      },
-      {
         "word": "Annemones",
         "word_upperCase": "ANNEMONES",
         "word_lowerCase": "annemones",
@@ -12859,25 +12865,9 @@
         "word_classes": [],
         "word_inflections": [],
         "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=andersson"
-      },
-      {
-        "word": "Anne-Dorte",
-        "word_upperCase": "ANNE-DORTE",
-        "word_lowerCase": "anne-dorte",
-        "word_classes": [],
-        "word_inflections": [],
-        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=anne-dorte"
       }
     ],
     [
-      {
-        "word": "Anne-Mette",
-        "word_upperCase": "ANNE-METTE",
-        "word_lowerCase": "anne-mette",
-        "word_classes": [],
-        "word_inflections": [],
-        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=anne-mette"
-      },
       {
         "word": "Anthonsen",
         "word_upperCase": "ANTHONSEN",
@@ -12914,6 +12904,14 @@
       }
     ],
     [
+      {
+        "word": "Anders And",
+        "word_upperCase": "ANDERS AND",
+        "word_lowerCase": "anders and",
+        "word_classes": [],
+        "word_inflections": [],
+        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=anders and"
+      },
       {
         "word": "Anisettes",
         "word_upperCase": "ANISETTES",
@@ -13071,16 +13069,25 @@
     ],
     [
       {
-        "word": "Ann-Louise",
-        "word_upperCase": "ANN-LOUISE",
-        "word_lowerCase": "ann-louise",
+        "word": "ATP-bidrag",
+        "word_upperCase": "ATP-BIDRAG",
+        "word_lowerCase": "atp-bidrag",
         "word_classes": [],
         "word_inflections": [],
-        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=ann-louise"
+        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=atp-bidrag"
       }
     ],
     [],
-    [],
+    [
+      {
+        "word": "Anne-Marie",
+        "word_upperCase": "ANNE-MARIE",
+        "word_lowerCase": "anne-marie",
+        "word_classes": [],
+        "word_inflections": [],
+        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=anne-marie"
+      }
+    ],
     [],
     [
       {
@@ -13118,6 +13125,14 @@
         "word_classes": [],
         "word_inflections": [],
         "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=a-aktierne"
+      },
+      {
+        "word": "ABS-bremse",
+        "word_upperCase": "ABS-BREMSE",
+        "word_lowerCase": "abs-bremse",
+        "word_classes": [],
+        "word_inflections": [],
+        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=abs-bremse"
       },
       {
         "word": "Allen-film",
@@ -13172,6 +13187,14 @@
         "word_classes": [],
         "word_inflections": [],
         "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=a-menneske"
+      },
+      {
+        "word": "Anne-Karin",
+        "word_upperCase": "ANNE-KARIN",
+        "word_lowerCase": "anne-karin",
+        "word_classes": [],
+        "word_inflections": [],
+        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=anne-karin"
       }
     ],
     [
@@ -13208,8 +13231,26 @@
       }
     ],
     [],
-    [],
-    [],
+    [
+      {
+        "word": "Anne-Dorte",
+        "word_upperCase": "ANNE-DORTE",
+        "word_lowerCase": "anne-dorte",
+        "word_classes": [],
+        "word_inflections": [],
+        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=anne-dorte"
+      }
+    ],
+    [
+      {
+        "word": "Anne-Mette",
+        "word_upperCase": "ANNE-METTE",
+        "word_lowerCase": "anne-mette",
+        "word_classes": [],
+        "word_inflections": [],
+        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=anne-mette"
+      }
+    ],
     [],
     [],
     [],
@@ -13239,6 +13280,14 @@
         "word_classes": [],
         "word_inflections": [],
         "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=abildgaard"
+      },
+      {
+        "word": "Ann-Louise",
+        "word_upperCase": "ANN-LOUISE",
+        "word_lowerCase": "ann-louise",
+        "word_classes": [],
+        "word_inflections": [],
+        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=ann-louise"
       }
     ],
     [
@@ -13304,16 +13353,7 @@
       }
     ],
     [],
-    [
-      {
-        "word": "ABS-bremsen",
-        "word_upperCase": "ABS-BREMSEN",
-        "word_lowerCase": "abs-bremsen",
-        "word_classes": [],
-        "word_inflections": [],
-        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=abs-bremsen"
-      }
-    ],
+    [],
     [],
     [
       {
@@ -13345,14 +13385,6 @@
     ],
     [
       {
-        "word": "ABS-bremser",
-        "word_upperCase": "ABS-BREMSER",
-        "word_lowerCase": "abs-bremser",
-        "word_classes": [],
-        "word_inflections": [],
-        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=abs-bremser"
-      },
-      {
         "word": "Aloysius's",
         "word_upperCase": "ALOYSIUS'S",
         "word_lowerCase": "aloysius's",
@@ -13361,16 +13393,7 @@
         "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=aloysius's"
       }
     ],
-    [
-      {
-        "word": "Anna Karina",
-        "word_upperCase": "ANNA KARINA",
-        "word_lowerCase": "anna karina",
-        "word_classes": [],
-        "word_inflections": [],
-        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=anna karina"
-      }
-    ],
+    [],
     [
       {
         "word": "Annabelles",
@@ -13390,14 +13413,6 @@
       }
     ],
     [
-      {
-        "word": "AGF-spiller",
-        "word_upperCase": "AGF-SPILLER",
-        "word_lowerCase": "agf-spiller",
-        "word_classes": [],
-        "word_inflections": [],
-        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=agf-spiller"
-      },
       {
         "word": "Aleksandar",
         "word_upperCase": "ALEKSANDAR",
@@ -13624,14 +13639,6 @@
         "word_classes": [],
         "word_inflections": [],
         "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=albertinas"
-      },
-      {
-        "word": "Anne-Vibeke",
-        "word_upperCase": "ANNE-VIBEKE",
-        "word_lowerCase": "anne-vibeke",
-        "word_classes": [],
-        "word_inflections": [],
-        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=anne-vibeke"
       }
     ],
     [
@@ -13786,14 +13793,6 @@
         "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=angeliques"
       },
       {
-        "word": "Anne-Grethe",
-        "word_upperCase": "ANNE-GRETHE",
-        "word_lowerCase": "anne-grethe",
-        "word_classes": [],
-        "word_inflections": [],
-        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=anne-grethe"
-      },
-      {
         "word": "Antillerne",
         "word_upperCase": "ANTILLERNE",
         "word_lowerCase": "antillerne",
@@ -13893,6 +13892,14 @@
       }
     ],
     [
+      {
+        "word": "Anna Karina",
+        "word_upperCase": "ANNA KARINA",
+        "word_lowerCase": "anna karina",
+        "word_classes": [],
+        "word_inflections": [],
+        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=anna karina"
+      },
       {
         "word": "Annemettes",
         "word_upperCase": "ANNEMETTES",
@@ -14041,6 +14048,14 @@
     ],
     [
       {
+        "word": "Anne-Vibeke",
+        "word_upperCase": "ANNE-VIBEKE",
+        "word_lowerCase": "anne-vibeke",
+        "word_classes": [],
+        "word_inflections": [],
+        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=anne-vibeke"
+      },
+      {
         "word": "Annizettes",
         "word_upperCase": "ANNIZETTES",
         "word_lowerCase": "annizettes",
@@ -14118,12 +14133,39 @@
     [],
     [],
     [],
+    [
+      {
+        "word": "Anne-Grethe",
+        "word_upperCase": "ANNE-GRETHE",
+        "word_lowerCase": "anne-grethe",
+        "word_classes": [],
+        "word_inflections": [],
+        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=anne-grethe"
+      }
+    ],
+    [
+      {
+        "word": "ABS-bremsen",
+        "word_upperCase": "ABS-BREMSEN",
+        "word_lowerCase": "abs-bremsen",
+        "word_classes": [],
+        "word_inflections": [],
+        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=abs-bremsen"
+      }
+    ],
     [],
     [],
     [],
-    [],
-    [],
-    [],
+    [
+      {
+        "word": "ABS-bremser",
+        "word_upperCase": "ABS-BREMSER",
+        "word_lowerCase": "abs-bremser",
+        "word_classes": [],
+        "word_inflections": [],
+        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=abs-bremser"
+      }
+    ],
     [
       {
         "word": "A-aktiernes",
@@ -14143,6 +14185,14 @@
         "word_classes": [],
         "word_inflections": [],
         "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=a-mennesker"
+      },
+      {
+        "word": "AGF-spiller",
+        "word_upperCase": "AGF-SPILLER",
+        "word_lowerCase": "agf-spiller",
+        "word_classes": [],
+        "word_inflections": [],
+        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=agf-spiller"
       }
     ],
     [],
@@ -14235,16 +14285,7 @@
         "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=anthonius's"
       }
     ],
-    [
-      {
-        "word": "ATP-bidraget",
-        "word_upperCase": "ATP-BIDRAGET",
-        "word_lowerCase": "atp-bidraget",
-        "word_classes": [],
-        "word_inflections": [],
-        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=atp-bidraget"
-      }
-    ],
+    [],
     [],
     [],
     [],
@@ -14294,16 +14335,7 @@
         "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=amalienborg"
       }
     ],
-    [
-      {
-        "word": "ABS-bremsens",
-        "word_upperCase": "ABS-BREMSENS",
-        "word_lowerCase": "abs-bremsens",
-        "word_classes": [],
-        "word_inflections": [],
-        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=abs-bremsens"
-      }
-    ],
+    [],
     [],
     [
       {
@@ -14334,14 +14366,6 @@
       }
     ],
     [
-      {
-        "word": "ABS-bremsers",
-        "word_upperCase": "ABS-BREMSERS",
-        "word_lowerCase": "abs-bremsers",
-        "word_classes": [],
-        "word_inflections": [],
-        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=abs-bremsers"
-      },
       {
         "word": "Almindingen",
         "word_upperCase": "ALMINDINGEN",
@@ -14529,16 +14553,7 @@
       }
     ],
     [],
-    [
-      {
-        "word": "Anne-Katrine",
-        "word_upperCase": "ANNE-KATRINE",
-        "word_lowerCase": "anne-katrine",
-        "word_classes": [],
-        "word_inflections": [],
-        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=anne-katrine"
-      }
-    ],
+    [],
     [],
     [
       {
@@ -14692,6 +14707,16 @@
       }
     ],
     [],
+    [
+      {
+        "word": "ATP-bidraget",
+        "word_upperCase": "ATP-BIDRAGET",
+        "word_lowerCase": "atp-bidraget",
+        "word_classes": [],
+        "word_inflections": [],
+        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=atp-bidraget"
+      }
+    ],
     [],
     [],
     [],
@@ -14700,17 +14725,43 @@
     [],
     [],
     [],
+    [
+      {
+        "word": "Anne-Katrine",
+        "word_upperCase": "ANNE-KATRINE",
+        "word_lowerCase": "anne-katrine",
+        "word_classes": [],
+        "word_inflections": [],
+        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=anne-katrine"
+      }
+    ],
     [],
     [],
     [],
     [],
+    [
+      {
+        "word": "ABS-bremsens",
+        "word_upperCase": "ABS-BREMSENS",
+        "word_lowerCase": "abs-bremsens",
+        "word_classes": [],
+        "word_inflections": [],
+        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=abs-bremsens"
+      }
+    ],
     [],
     [],
     [],
-    [],
-    [],
-    [],
-    [],
+    [
+      {
+        "word": "ABS-bremsers",
+        "word_upperCase": "ABS-BREMSERS",
+        "word_lowerCase": "abs-bremsers",
+        "word_classes": [],
+        "word_inflections": [],
+        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=abs-bremsers"
+      }
+    ],
     [],
     [],
     [],
@@ -14757,16 +14808,7 @@
     [],
     [],
     [],
-    [
-      {
-        "word": "AGF-veteranen",
-        "word_upperCase": "AGF-VETERANEN",
-        "word_lowerCase": "agf-veteranen",
-        "word_classes": [],
-        "word_inflections": [],
-        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=agf-veteranen"
-      }
-    ],
+    [],
     [
       {
         "word": "Absalonsgade",
@@ -14778,16 +14820,7 @@
       }
     ],
     [],
-    [
-      {
-        "word": "ABS-bremserne",
-        "word_upperCase": "ABS-BREMSERNE",
-        "word_lowerCase": "abs-bremserne",
-        "word_classes": [],
-        "word_inflections": [],
-        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=abs-bremserne"
-      }
-    ],
+    [],
     [],
     [
       {
@@ -14811,16 +14844,7 @@
         "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=allindelille"
       }
     ],
-    [
-      {
-        "word": "Andersine And",
-        "word_upperCase": "ANDERSINE AND",
-        "word_lowerCase": "andersine and",
-        "word_classes": [],
-        "word_inflections": [],
-        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=andersine and"
-      }
-    ],
+    [],
     [],
     [],
     [],
@@ -14868,14 +14892,6 @@
     [],
     [
       {
-        "word": "AGF-forsvaret",
-        "word_upperCase": "AGF-FORSVARET",
-        "word_lowerCase": "agf-forsvaret",
-        "word_classes": [],
-        "word_inflections": [],
-        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=agf-forsvaret"
-      },
-      {
         "word": "Afghanistans",
         "word_upperCase": "AFGHANISTANS",
         "word_lowerCase": "afghanistans",
@@ -14902,14 +14918,6 @@
         "word_classes": [],
         "word_inflections": [],
         "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=almindingens"
-      },
-      {
-        "word": "Anna-Cathrine",
-        "word_upperCase": "ANNA-CATHRINE",
-        "word_lowerCase": "anna-cathrine",
-        "word_classes": [],
-        "word_inflections": [],
-        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=anna-cathrine"
       }
     ],
     [
@@ -14933,16 +14941,7 @@
         "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=annebirgitte"
       }
     ],
-    [
-      {
-        "word": "Anne-Cathrine",
-        "word_upperCase": "ANNE-CATHRINE",
-        "word_lowerCase": "anne-cathrine",
-        "word_classes": [],
-        "word_inflections": [],
-        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=anne-cathrine"
-      }
-    ],
+    [],
     [
       {
         "word": "Alexandrines",
@@ -14961,16 +14960,7 @@
         "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=amazonlandet"
       }
     ],
-    [
-      {
-        "word": "AGF-træneren",
-        "word_upperCase": "AGF-TRÆNEREN",
-        "word_lowerCase": "agf-træneren",
-        "word_classes": [],
-        "word_inflections": [],
-        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=agf-træneren"
-      }
-    ],
+    [],
     [],
     [],
     [
@@ -14992,7 +14982,16 @@
     [],
     [],
     [],
-    [],
+    [
+      {
+        "word": "Andersine And",
+        "word_upperCase": "ANDERSINE AND",
+        "word_lowerCase": "andersine and",
+        "word_classes": [],
+        "word_inflections": [],
+        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=andersine and"
+      }
+    ],
     [
       {
         "word": "Artillerivej",
@@ -15006,16 +15005,7 @@
     [],
     [],
     [],
-    [
-      {
-        "word": "Afghanistan-Pakistan-området",
-        "word_upperCase": "AFGHANISTAN-PAKISTAN-OMRÅDET",
-        "word_lowerCase": "afghanistan-pakistan-området",
-        "word_classes": [],
-        "word_inflections": [],
-        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=afghanistan-pakistan-området"
-      }
-    ],
+    [],
     [
       {
         "word": "Allingåbros",
@@ -15050,11 +15040,29 @@
     ],
     [],
     [],
+    [
+      {
+        "word": "Anna-Cathrine",
+        "word_upperCase": "ANNA-CATHRINE",
+        "word_lowerCase": "anna-cathrine",
+        "word_classes": [],
+        "word_inflections": [],
+        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=anna-cathrine"
+      }
+    ],
     [],
     [],
     [],
-    [],
-    [],
+    [
+      {
+        "word": "Anne-Cathrine",
+        "word_upperCase": "ANNE-CATHRINE",
+        "word_lowerCase": "anne-cathrine",
+        "word_classes": [],
+        "word_inflections": [],
+        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=anne-cathrine"
+      }
+    ],
     [],
     [],
     [
@@ -15078,6 +15086,28 @@
         "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=asminderøds"
       }
     ],
+    [
+      {
+        "word": "AGF-veteranen",
+        "word_upperCase": "AGF-VETERANEN",
+        "word_lowerCase": "agf-veteranen",
+        "word_classes": [],
+        "word_inflections": [],
+        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=agf-veteranen"
+      }
+    ],
+    [],
+    [],
+    [
+      {
+        "word": "ABS-bremserne",
+        "word_upperCase": "ABS-BREMSERNE",
+        "word_lowerCase": "abs-bremserne",
+        "word_classes": [],
+        "word_inflections": [],
+        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=abs-bremserne"
+      }
+    ],
     [],
     [],
     [],
@@ -15088,6 +15118,31 @@
     [],
     [],
     [],
+    [
+      {
+        "word": "Afghanistan-Pakistan-området",
+        "word_upperCase": "AFGHANISTAN-PAKISTAN-OMRÅDET",
+        "word_lowerCase": "afghanistan-pakistan-området",
+        "word_classes": [],
+        "word_inflections": [],
+        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=afghanistan-pakistan-området"
+      }
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      {
+        "word": "AGF-forsvaret",
+        "word_upperCase": "AGF-FORSVARET",
+        "word_lowerCase": "agf-forsvaret",
+        "word_classes": [],
+        "word_inflections": [],
+        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=agf-forsvaret"
+      }
+    ],
     [],
     [],
     [],
@@ -15095,18 +15150,16 @@
     [],
     [],
     [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
+    [
+      {
+        "word": "AGF-træneren",
+        "word_upperCase": "AGF-TRÆNEREN",
+        "word_lowerCase": "agf-træneren",
+        "word_classes": [],
+        "word_inflections": [],
+        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=agf-træneren"
+      }
+    ],
     [],
     [],
     [],
@@ -15143,16 +15196,7 @@
     [],
     [],
     [],
-    [
-      {
-        "word": "A/S-bestyrelse",
-        "word_upperCase": "A/S-BESTYRELSE",
-        "word_lowerCase": "a/s-bestyrelse",
-        "word_classes": [],
-        "word_inflections": [],
-        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=a/s-bestyrelse"
-      }
-    ],
+    [],
     [],
     [],
     [],
@@ -15160,14 +15204,6 @@
     [],
     [],
     [
-      {
-        "word": "ABS-bremsernes",
-        "word_upperCase": "ABS-BREMSERNES",
-        "word_lowerCase": "abs-bremsernes",
-        "word_classes": [],
-        "word_inflections": [],
-        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=abs-bremsernes"
-      },
       {
         "word": "Andelsbankens",
         "word_upperCase": "ANDELSBANKENS",
@@ -15193,16 +15229,7 @@
     [],
     [],
     [],
-    [
-      {
-        "word": "Aberdeen-Angus",
-        "word_upperCase": "ABERDEEN-ANGUS",
-        "word_lowerCase": "aberdeen-angus",
-        "word_classes": [],
-        "word_inflections": [],
-        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=aberdeen-angus"
-      }
-    ],
+    [],
     [],
     [],
     [
@@ -15241,16 +15268,7 @@
         "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=arbejdsretten"
       }
     ],
-    [
-      {
-        "word": "Anne-Margrethe",
-        "word_upperCase": "ANNE-MARGRETHE",
-        "word_lowerCase": "anne-margrethe",
-        "word_classes": [],
-        "word_inflections": [],
-        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=anne-margrethe"
-      }
-    ],
+    [],
     [
       {
         "word": "Annebirgittes",
@@ -15263,7 +15281,16 @@
     ],
     [],
     [],
-    [],
+    [
+      {
+        "word": "A/S-bestyrelse",
+        "word_upperCase": "A/S-BESTYRELSE",
+        "word_lowerCase": "a/s-bestyrelse",
+        "word_classes": [],
+        "word_inflections": [],
+        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=a/s-bestyrelse"
+      }
+    ],
     [
       {
         "word": "Ansgarskirken",
@@ -15313,7 +15340,16 @@
         "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=artillerivejs"
       }
     ],
-    [],
+    [
+      {
+        "word": "Aberdeen-Angus",
+        "word_upperCase": "ABERDEEN-ANGUS",
+        "word_lowerCase": "aberdeen-angus",
+        "word_classes": [],
+        "word_inflections": [],
+        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=aberdeen-angus"
+      }
+    ],
     [],
     [],
     [],
@@ -15344,7 +15380,16 @@
     ],
     [],
     [],
-    [],
+    [
+      {
+        "word": "Anne-Margrethe",
+        "word_upperCase": "ANNE-MARGRETHE",
+        "word_lowerCase": "anne-margrethe",
+        "word_classes": [],
+        "word_inflections": [],
+        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=anne-margrethe"
+      }
+    ],
     [],
     [],
     [],
@@ -15357,12 +15402,12 @@
     [],
     [
       {
-        "word": "Arthur C. Clarke",
-        "word_upperCase": "ARTHUR C. CLARKE",
-        "word_lowerCase": "arthur c. clarke",
+        "word": "ABS-bremsernes",
+        "word_upperCase": "ABS-BREMSERNES",
+        "word_lowerCase": "abs-bremsernes",
         "word_classes": [],
         "word_inflections": [],
-        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=arthur c. clarke"
+        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=abs-bremsernes"
       }
     ],
     [],
@@ -15462,19 +15507,18 @@
         "word_classes": [],
         "word_inflections": [],
         "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=ansgarshjemmet"
+      },
+      {
+        "word": "Arthur C. Clarke",
+        "word_upperCase": "ARTHUR C. CLARKE",
+        "word_lowerCase": "arthur c. clarke",
+        "word_classes": [],
+        "word_inflections": [],
+        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=arthur c. clarke"
       }
     ],
     [],
-    [
-      {
-        "word": "AGF-direktøren",
-        "word_upperCase": "AGF-DIREKTØREN",
-        "word_lowerCase": "agf-direktøren",
-        "word_classes": [],
-        "word_inflections": [],
-        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=agf-direktøren"
-      }
-    ],
+    [],
     [],
     [],
     [],
@@ -15556,7 +15600,16 @@
     [],
     [],
     [],
-    [],
+    [
+      {
+        "word": "AGF-direktøren",
+        "word_upperCase": "AGF-DIREKTØREN",
+        "word_lowerCase": "agf-direktøren",
+        "word_classes": [],
+        "word_inflections": [],
+        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=agf-direktøren"
+      }
+    ],
     [],
     [],
     [],
@@ -15618,16 +15671,7 @@
     [],
     [],
     [],
-    [
-      {
-        "word": "Atlantic Airways",
-        "word_upperCase": "ATLANTIC AIRWAYS",
-        "word_lowerCase": "atlantic airways",
-        "word_classes": [],
-        "word_inflections": [],
-        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=atlantic airways"
-      }
-    ],
+    [],
     [],
     [],
     [],
@@ -15686,27 +15730,14 @@
     [],
     [],
     [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
     [
       {
-        "word": "Aswan-dæmningen",
-        "word_upperCase": "ASWAN-DÆMNINGEN",
-        "word_lowerCase": "aswan-dæmningen",
+        "word": "Atlantic Airways",
+        "word_upperCase": "ATLANTIC AIRWAYS",
+        "word_lowerCase": "atlantic airways",
         "word_classes": [],
         "word_inflections": [],
-        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=aswan-dæmningen"
+        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=atlantic airways"
       }
     ],
     [],
@@ -15714,43 +15745,6 @@
     [],
     [],
     [],
-    [],
-    [],
-    [
-      {
-        "word": "A-landsholdstrup",
-        "word_upperCase": "A-LANDSHOLDSTRUP",
-        "word_lowerCase": "a-landsholdstrup",
-        "word_classes": [],
-        "word_inflections": [],
-        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=a-landsholdstrup"
-      }
-    ],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [
-      {
-        "word": "Ada-programmørs",
-        "word_upperCase": "ADA-PROGRAMMØRS",
-        "word_lowerCase": "ada-programmørs",
-        "word_classes": [],
-        "word_inflections": [],
-        "word_meaning_url": "https://ordnet.dk/ddo/ordbog?query=ada-programmørs"
-      }
-    ],
     [],
     []
   ],

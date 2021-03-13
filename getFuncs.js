@@ -5,10 +5,15 @@ let rootP = path.join(__dirname);
 let ASCIIpath = rootP + '/words/ASCII-sheet.json';
 let wPath = rootP + '/words/words.json';
 let ASCIIsheet;
+let allWords;
+
+fs.readFile(wPath, (err, data) => {
+    if (err) throw err;
+    allWords = JSON.parse(data);
+});
 
 fs.readFile(ASCIIpath, (err, data2) => {
     if (err) throw err;
-
     ASCIIsheet = JSON.parse(data2);
 });
 
@@ -29,35 +34,31 @@ const calASCII = (word, array) => {
 
     wordSplitted.forEach(letter => {
         letterASCIIsum += ASCIIsheet[letter];
-        
     });
     
     return letterASCIIsum % arrLen;
 }
 
 const getWord = (wantedWord) => {
-    var allWords;
     var wordSection;
     var wantedWordArr; 
     var seachedAsciiIndex = 0;
+    var gottenWordObj = {};
 
-    fs.readFile(wPath, (err, data) => {
-        allWords = JSON.parse(data);
-        wordSection = allWords[wantedWord.charAt(0).toUpperCase()];
+    wordSection = allWords[wantedWord.charAt(0).toUpperCase()];
 
-        seachedAsciiIndex = calASCII(wantedWord, wordSection);
-        wantedWordArr = wordSection[seachedAsciiIndex];
+    seachedAsciiIndex = calASCII(wantedWord.toLowerCase(), wordSection);
+    wantedWordArr = wordSection[seachedAsciiIndex];
 
-        for (let i = 0; i < wantedWordArr.length; i++) {
-            var arrWord = wantedWordArr[i];
-            
-            if (arrWord.word === wantedWord) {
-                return new Promise(resolve => {
-                    resolve(arrWord);
-                });
-            } 
-        }
-    });
+    for (let i = 0; i < wantedWordArr.length; i++) {
+        var arrWord = wantedWordArr[i];
+        
+        if (arrWord.word === wantedWord) {
+            gottenWordObj = arrWord;
+        } 
+    }
+
+    return gottenWordObj;
 };
 
 module.exports = {

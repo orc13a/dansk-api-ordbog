@@ -81,7 +81,7 @@ function sort(letter) {
         }
 
         if (letter.toLowerCase() != 'å') {
-            var calIndex = calASCII(word, theWords);
+            var calIndex = calASCII(word.toLowerCase(), theWords);
 
             letterArr[calIndex].push(new Word(word));
         } else {
