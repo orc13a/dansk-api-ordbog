@@ -36,12 +36,13 @@ fs.readFile(ASCIIpath, (err, data2) => {
 const convertSpecielChar = (char) => {
     var returnChar;
 
-    specielChars.forEach(charArr => {
+    for (let i = 0; i < specielChars.length; i++) {
+        var charArr = specielChars[i];
         if (charArr.includes(char.toUpperCase()) === true) {
             returnChar = charArr[0];
             break;
         }
-    });
+    }
 
     if (returnChar == undefined) {
         returnChar = char;
