@@ -81,6 +81,10 @@ function sort(wordsFromFile) {
         firstChar = word.charAt(0);
         secondChar = word.charAt(1);
 
+        if (firstChar.toLowerCase() == 'é') {
+            firstChar = 'e';
+        }
+
         if (firstChar.toUpperCase() === secondChar.toUpperCase()) {
             letterArr = allWords['Å'];
             letterArrPlac = wordsJSONplaceholder['Å'];

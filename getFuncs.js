@@ -31,7 +31,7 @@ const calASCII = (word, array) => {
     } else {
         arrLen = array.length;
     }
-    console.log(wordSplitted);
+    
     wordSplitted.forEach(letter => {
         letterASCIIsum += ASCIIsheet[letter];
     });
