@@ -25,13 +25,13 @@ const calASCII = (word, array) => {
     var wordSplitted = word.split('');
     var letterASCIIsum = 0;
     var arrLen;
-    
-    if (array.length != 0) {
-        arrLen = array.length;
-    } else {
-        arrLen = 1;
-    }
 
+    if (array.length === undefined || array.length === 0) {
+        arrLen = 1;
+    } else {
+        arrLen = array.length;
+    }
+    console.log(wordSplitted);
     wordSplitted.forEach(letter => {
         letterASCIIsum += ASCIIsheet[letter];
     });
