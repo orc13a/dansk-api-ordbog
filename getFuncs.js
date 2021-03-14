@@ -7,6 +7,19 @@ let wPath = rootP + '/words/words.json';
 let ASCIIsheet;
 let allWords;
 
+let specielChars = [
+    ['Å', 'À', 'Á', 'Â', 'Ã', 'Ä'],
+    ['C', 'Ç'],
+    ['E', 'È', 'É', 'Ê', 'Ë'],
+    ['I', 'Ì', 'Í', 'Î', 'Ï'],
+    ['D', 'Ð'],
+    ['N', 'Ñ'],
+    ['O', 'Ò', 'Ó', 'Ô', 'Õ', 'Ö'],
+    ['U', 'Ù', 'Ú', 'Û', 'Ü'],
+    ['Y', 'Ý',],
+    ['B', 'ß']
+];
+
 fs.readFile(wPath, (err, data) => {
     if (err) throw err;
     allWords = JSON.parse(data);
@@ -20,6 +33,22 @@ fs.readFile(ASCIIpath, (err, data2) => {
 // ----------------------------------------
 // Functions
 // ----------------------------------------
+const convertSpecielChar = (char) => {
+    var returnChar;
+
+    specielChars.forEach(charArr => {
+        if (charArr.includes(char.toUpperCase()) === true) {
+            returnChar = charArr[0];
+            break;
+        }
+    });
+
+    if (returnChar == undefined) {
+        returnChar = char;
+    }
+
+    return returnChar.toUpperCase();
+}
 
 const calASCII = (word, array) => {
     var wordSplitted = word.split('');
@@ -63,6 +92,7 @@ const getWord = (wantedWord) => {
 };
 
 module.exports = {
+    convertSpecielChar,
     calASCII,
     getWord
 };

@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require('path');
 const { Word } = require('./classes');
-const { calASCII } = require('./getFuncs');
+const { convertSpecielChar, calASCII } = require('./getFuncs');
 
 let rootPath = path.join(__dirname);
 let allWordsPath = rootPath + '/words/words.json';
@@ -11,37 +11,8 @@ let allWords;
 let allSortingLetters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'æ', 'ø', 'å'];
 let theWords = [];
 
-let wordsJSONplaceholder = {
-    "A": [],
-    "B": [],
-    "C": [],
-    "D": [],
-    "E": [],
-    "F": [],
-    "G": [],
-    "H": [],
-    "I": [],
-    "J": [],
-    "K": [],
-    "L": [],
-    "M": [],
-    "N": [],
-    "O": [],
-    "P": [],
-    "Q": [],
-    "R": [],
-    "S": [],
-    "T": [],
-    "U": [],
-    "V": [],
-    "W": [],
-    "X": [],
-    "Y": [],
-    "Z": [],
-    "Æ": [],
-    "Ø": [],
-    "Å": []
-};
+let totalWordList = fs.readFileSync("./words/total-word-list.txt", "utf-8");
+let totalWordListFile = totalWordList.split('\n');
 
 let wordList1 = fs.readFileSync("./words/words-list-1.txt", "utf-8");
 let words1FromFile = wordList1.split('\n');
@@ -53,19 +24,19 @@ fs.readFile(allWordsPath, (err, data) => {
 
     allWords = JSON.parse(data);
 
-    sort(words1FromFile);
+    //sort(words1FromFile);
 });
 
-function sort(wordsFromFile) {
-    let firstChar = '';
-    let secondChar = '';
-    let startIndex = 0;
-    let rawWord = '';
-    let word = '';
-    let calIndex;
-    let letterArr = [];
-    let letterArrPlac = [];
+let firstChar = '';
+let secondChar = '';
+let startIndex = 0;
+let rawWord = '';
+let word = '';
+let calIndex;
+let letterArr = [];
+let letterArrPlac = [];
 
+function sort(wordsFromFile) {
     console.log(`==> Sorting has started`);
     console.log(`==> Please wait...\n`);
     
@@ -78,12 +49,8 @@ function sort(wordsFromFile) {
             word = rawWord;
         }
 
-        firstChar = word.charAt(0);
+        firstChar = convertSpecielChar(word.charAt(0));
         secondChar = word.charAt(1);
-
-        if (firstChar.toLowerCase() == 'é') {
-            firstChar = 'e';
-        }
 
         if (firstChar.toUpperCase() === secondChar.toUpperCase()) {
             letterArr = allWords['Å'];
@@ -94,18 +61,15 @@ function sort(wordsFromFile) {
         }
         
         calIndex = calASCII(word, letterArrPlac);
-        
-        if (allWords[calIndex] === undefined) {
-            letterArr[calIndex] = [];
-            letterArr[calIndex].push(word);
+        // if (wordsJSONplaceholder[calIndex] === undefined) {
+        //     letterArr[calIndex] = [];
 
-            letterArrPlac[calIndex] = [];
-            letterArrPlac[calIndex].push(word);
-        } else {
-            letterArr[calIndex].push(word);
+        //     letterArrPlac[calIndex] = [];
+        // }
 
-            letterArrPlac[calIndex].push(word);
-        }
+        // letterArr[calIndex].push(word);
+
+        // letterArrPlac[calIndex].push(word);
     }
     
     // let rawData = JSON.stringify(allWords, null, 2);
@@ -115,6 +79,4 @@ function sort(wordsFromFile) {
     // });
 
     console.log(`==> Finish sorting'\n`);
-
-    console.log(wordsJSONplaceholder);
 }
