@@ -4,8 +4,8 @@
   "description": "En REST API som indenholder danske ord og er dermed en ordbog i API form.",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "test": "nodemon server.js"
   },
   "repository": {
     "type": "git",
