@@ -39,9 +39,7 @@ function createWordListeFile() {
     console.log(`==> Please wait...\n`);
 
     allWordListFiles.forEach(wordFile => {
-        wordFile.forEach(pushWord => {
-            rawWord = pushWord;
-        
+        wordFile.forEach(rawWord => {        
             if (rawWord != firstLineSkipWord) {
                 if (rawWord.includes('\r') === true) {
                     word = rawWord.split('\r')[0];
@@ -53,6 +51,7 @@ function createWordListeFile() {
             totalWordListFile.push(ucfirst(word));
         });
     });
+    
     totalWordListFile.sort();
     let rawData = totalWordListFile.join('\n');
     
