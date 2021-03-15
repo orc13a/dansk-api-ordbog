@@ -5,21 +5,35 @@ const { convertSpecielChar, calASCII } = require('./getFuncs');
 
 let rootPath = path.join(__dirname);
 let allWordsPath = rootPath + '/words/words.json';
+let allWordsTemPath = rootPath + '/words/words-template.json';
 
 let totalWordListFile = fs.readFileSync("./words/total-word-list.txt", "utf-8");
 let totalWordList = totalWordListFile.split('\n');
 
 let allWords;
+let allWordsTem;
 
-let allSortingLetters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'æ', 'ø', 'å'];
-let theWords = [];
-
+// Clear and set to template json words file
 fs.readFile(allWordsPath, (err, data) => {
     if (err) throw err;
 
     allWords = JSON.parse(data);
+    
+    fs.readFile(allWordsTemPath, (err, data2) => {
+        if (err) throw err;
 
-    sortSetup(totalWordList);
+        allWordsTem = JSON.parse(data2);
+        
+        allWords = allWordsTem;
+
+        let rawData = JSON.stringify(allWords, null, 2);
+    
+        fs.writeFile(allWordsPath, rawData, (err) => {
+            if(err) throw err;
+
+            sortSetup(totalWordList);
+        });
+    });
 });
 
 let firstChar = '';
@@ -38,7 +52,7 @@ function sortSetup(wordsFromFile) {
 
     for (const letter in allWords) {
         // allWords[letter].length = wordsFromFile.length;
-        for (let i = 0; i < wordsFromFile.length; i++) {
+        for (let i = 0; i < 101; i++) {
             allWords[letter][i] = [];
         }
     }
@@ -65,8 +79,8 @@ function sort(wordsFromFile) {
         } else {
             letterArr = allWords[firstChar.toUpperCase()];
         }
-
-        calIndex = calASCII(rawWord, wordsFromFile);
+        
+        calIndex = calASCII(rawWord, letterArr);
         letterArr[calIndex].push(new Word(rawWord));
     });
     
