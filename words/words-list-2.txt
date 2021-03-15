@@ -1,4 +1,3 @@
-//--FirstLineSkip--//
 Og
 Sin
 Uden
@@ -116,7 +115,7 @@ Stille
 Om
 Mod
 Andet
-0rd
+Ord
 Har
 Været
 Sad
