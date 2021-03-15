@@ -4,8 +4,10 @@ const server = express();
 const bodyParser = require('body-parser');
 const fs = require('fs');
 
+require('dotenv').config()
+
 // Server runtime port
-const port = 8080;
+const port = process.env.PORT || 8080;
 
 // Midleware
 server.use(bodyParser.urlencoded({ extended: false }));
