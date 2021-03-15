@@ -7,7 +7,9 @@ let wPath = rootP + '/words/words.json';
 let ASCIIsheet;
 let allWords;
 
-let specielChars = [
+// let specielChars = ['Å', 'C', 'E', 'I', 'D', 'N', 'O', 'U', 'Y', 'B']
+
+let specielCharsMatch = [
     ['Å', 'À', 'Á', 'Â', 'Ã', 'Ä'],
     ['C', 'Ç'],
     ['E', 'È', 'É', 'Ê', 'Ë'],
@@ -36,15 +38,16 @@ fs.readFile(ASCIIpath, (err, data2) => {
 const convertSpecielChar = (char) => {
     var returnChar;
 
-    for (let i = 0; i < specielChars.length; i++) {
-        var charArr = specielChars[i];
+    for (let i = 0; i < specielCharsMatch.length; i++) {
+        var charArr = specielCharsMatch[i];
+
         if (charArr.includes(char.toUpperCase()) === true) {
             returnChar = charArr[0];
             break;
         }
     }
 
-    if (returnChar == undefined) {
+    if (returnChar === undefined) {
         returnChar = char;
     }
 
