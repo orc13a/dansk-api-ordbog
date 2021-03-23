@@ -1,11 +1,11 @@
 {
   "name": "dansk-api-ordbog",
-  "version": "0.0.1",
-  "description": "En REST API som indenholder danske ord og er dermed en ordbog i API form.",
+  "version": "0.1.0",
+  "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "test": "nodemon server.js"
+    "test": "nodemon server.js",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -16,16 +16,5 @@
   "bugs": {
     "url": "https://github.com/orc13a/dansk-api-ordbog/issues"
   },
-  "homepage": "https://github.com/orc13a/dansk-api-ordbog#readme",
-  "dependencies": {
-    "body-parser": "^1.19.0",
-    "dotenv": "^8.2.0",
-    "ejs": "^3.1.6",
-    "express": "^4.17.1",
-    "fs": "^0.0.1-security",
-    "path": "^0.12.7"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.7"
-  }
+  "homepage": "https://github.com/orc13a/dansk-api-ordbog#readme"
 }
