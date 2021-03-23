@@ -9,6 +9,7 @@ const fs = require("fs");
 // Functions
 // ----------------------------------------
 
+// For getting the base url
 function getBaseUrl(req) {
     if (req.secure != false) {
         httpType = "https://";
