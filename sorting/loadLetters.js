@@ -16,10 +16,12 @@ const loadLetters = () => {
             if (err) throw err;
 
             allLetters[letter] = JSON.parse(data)[letter];
+
+            console.log(allLetters);
         });
     }
 
-    console.log(allLetters);
+    //console.log(allLetters);
 }
 
 loadLetters();
