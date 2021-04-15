@@ -2,8 +2,12 @@
 const express = require('express');
 const server = express();
 const bodyParser = require('body-parser');
+const fs = require("fs");
+const path = require('path');
 
 require('dotenv').config()
+
+let rootPath = path.join(__dirname);
 
 // Server runtime port
 const port = process.env.PORT || 8080;
