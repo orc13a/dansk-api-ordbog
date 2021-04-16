@@ -15,10 +15,13 @@ fs.readFile(lettersPath, (err, lettersArrayData) => {
     if (err) throw err;
 
     // Run when read the file and send the array
-    resetLetterArrays(JSON.parse(lettersArrayData));
+    clearLetterArrays(JSON.parse(lettersArrayData));
 });
 
-function resetLetterArrays(letters) {
+function clearLetterArrays(letters) {
+    console.log(`\n==> The cleaning of has started`);
+    console.log(`==> Please wait...\n`);
+
     // For each letter
     letters.forEach(letter => {
         // Clear array
@@ -35,7 +38,9 @@ function resetLetterArrays(letters) {
             if(err) throw err;
 
             // Say when file has been writen/saved
-            console.log(letter + ' array has been reseted!');
+            console.log(`${letter} array has been cleared!`);
         });
     });
+
+    console.log(`\n==> All files has been clear successfully\n`);
 }
