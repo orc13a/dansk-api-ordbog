@@ -4,10 +4,7 @@ const path = require('path');
 let rootPath = path.join(__dirname);
 let ASCIIpathForSetValues = rootPath + '/ASCII-sheet.json';
 
-let ASCIIsheetSetValues;
-let ASCIIsheetGetValues;
 let value = 32;
-
 let finishedAsciiObj = {};
 
 let ASCIIpathForGetValues = fs.readFileSync("./ASCII-chars.txt", "utf-8");
@@ -16,8 +13,6 @@ let ASCIIcharFile = ASCIIpathForGetValues.split('\n');
 fs.readFile(ASCIIpathForSetValues, (err, data) => {
     if (err) throw err;
 
-    ASCIIsheetSetValues = JSON.parse(data);
-    
     addValues();
 });
 
