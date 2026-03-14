@@ -30,8 +30,30 @@ api.get('/', (req, res) => {
     res.status(200).json({
         "word_url": `${apiBaseUrl}/word/{word}`
     });
+    // res.end() removed — res.json() already ends the response
+});
 
-    res.end();
+api.get('/word/:word', (req, res) => {
+    const word = req.params.word;
+    const letter = word[0].toUpperCase();
+    const filePath = path.join(__dirname, '../words/letter-arrays', `${letter}.json`);
+
+    try {
+        if (!fs.existsSync(filePath)) {
+            return res.status(404).json({ error: `No word list found for letter "${letter}"` });
+        }
+
+        const words = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+        const match = words.find(w => w.word.toLowerCase() === word.toLowerCase());
+
+        if (!match) {
+            return res.status(404).json({ error: `Word "${word}" not found` });
+        }
+
+        res.status(200).json(match);
+    } catch (err) {
+        res.status(500).json({ error: 'Internal server error', details: err.message });
+    }
 });
 
 module.exports = api;
